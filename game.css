@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(rgb(228, 111, 169), rgb(126, 27, 88), rgb(235, 57, 86));
+
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+ }
+ 
+ .navbar {
+	 min-height: 57px;
+ }
+ 
+ .bg-navigation {
+	 background-color: #bb075b !important;
+}
+
+.content {
+    height: 2000px;
+    width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.snake {
+    margin: 10px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    background-color: pink;
+    color: white;
+    background-color: rgb(195, 27, 125);
+    font-size: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.wisielec {
+    margin: 10px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    background-color: rgb(31, 22, 24);
+    color: white;
+    font-size: 200px;
+    text-align: center;
+    padding: 30px;
+}
+
+.memory {
+    margin: 10px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    background-color: rgb(119, 19, 36);
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.TicTacToe {
+    margin: 10px;
+    width: 400px;
+    float: left;
+    height: 400px;
+    background-color: rgb(195, 83, 102);
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+}

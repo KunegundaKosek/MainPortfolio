@@ -1,0 +1,62 @@
+body
+{
+	background-image: linear-gradient(rgb(223, 39, 69), rgb(160, 16, 160), rgb(214, 86, 161), red);
+	color: #efefef;
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+ }
+ 
+ .navbar {
+	 min-height: 57px;
+ }
+ 
+ .bg-navigation {
+	 background-color: #bb075b !important;
+}
+
+.container {
+	font-family: 'Patrick Hand', cursive;
+    font-size: 26px;
+}
+ 
+
+h1 {
+	font-size: 80px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+	font-family: 'Syne Mono', monospace;
+}
+
+.cat {
+	text-align: center;
+}
+
+.cat img {
+	width: 100%;
+	height: auto;
+}
+
+.cat p {
+	margin-bottom: 30px;
+}
+
+.cat figcaption {
+	margin-top: 8px;
+}
+
+.powrot {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 2px solid pink;
+	width: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	font-family: 'League Gothic', sans-serif;
+}
+
+

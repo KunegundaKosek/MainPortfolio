@@ -1,0 +1,98 @@
+body {
+    background-image: url(img/cv.png);
+    color: black;
+
+}
+
+/* nawigacja */
+
+.navbar-nav li:hover>.dropdown-menu {
+   display: block;
+}
+
+.navbar {
+    min-height: 57px;
+}
+
+.bg-navigation {
+    background-color: #bb075b !important;
+}
+
+/* głowna częśc strony */
+
+.container {
+    width: 1000px;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.title {
+    font-size: 50px;
+    color: deeppink;
+    text-align: end;
+    margin-bottom: 60px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.img {
+    width: 200px;
+    height: 269px;
+}
+
+.name {
+    margin-top: 25px;
+    width: 500px;
+    float: left;
+    text-align: left;
+    font-family: 'Ubuntu Mono', monospace;
+    color: blue;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+
+.foto {
+    width: 300px;
+    float: left;
+    margin-left: 50px;
+}
+
+.description {
+    margin-top: 40px;
+    color: pink;
+    background-color: #4b054d9b;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+.text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.square {
+    background-color: #a83a08f8;
+    width: 465px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    font-size: 58px;
+    text-align: center;
+}
+
+.achievements {
+    background-color: #a83a08f8;
+    width: 465px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    padding: 10px;
+    font-size: 58px;
+    text-align: center;
+}

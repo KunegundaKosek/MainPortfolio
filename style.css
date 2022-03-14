@@ -1,0 +1,499 @@
+body {
+    background-image:linear-gradient(rgb(228, 111, 169), rgb(126, 27, 88), rgb(235, 57, 86));
+    color: black;
+}
+/* nawigacja */
+
+.navbar-nav li:hover>.dropdown-menu {
+   display: block;
+}
+
+.navbar {
+    min-height: 57px;
+}
+
+.bg-navigation {
+    background-color: #bb075b !important;
+}
+
+/* część główna */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ }
+
+.container {
+    width: 1431px;
+}
+
+.rectangle {
+    margin-top: 15px;
+}
+
+.name {
+    width: 550px;
+    float: left;
+    background-color: rgb(160, 94, 94);
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    font-size: 30px;
+    color: pink;
+}
+
+#clock {
+    width: 550px;
+    margin-left: 5px;
+    float: left;
+    background-color: rgb(229, 147, 229);
+    text-align: center;
+    font-family: 'Syne Mono', monospace;
+    font-size: 30px;
+    color: pink;
+}
+
+.square {
+    margin-top: 5px;
+    float: left;
+    width: 550px;
+    height: 480px;
+    margin-right: 5px;
+}
+
+.description {
+    width: 540px;
+    height: 200px;
+    background-color: rgb(230, 179, 86);
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(119, 6, 31);
+    font-size: 25px;
+    text-align: center;
+}
+
+.news {
+    width: 270px;
+    margin: 5px;
+    background-color: darkgreen;
+    height: 260px;
+    float: left;
+}
+
+.tile1 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #d6307d;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile1:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile2 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #df80ac;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.tile2:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile3 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #aa206a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.tile3:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile4 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ce526d;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.tile4:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile5 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #f035e6;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile5:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile6 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ec90bb;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile6:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile7 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ac1a7b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile7:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile8 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #c74e80;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile8:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile9 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #fb0069;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile9:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile10 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #e920bd;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile10:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile11 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #dd409c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile11:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile12 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #8f1968;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile12:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile13 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ff004c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile13:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile14 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #f66bac;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile14:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile15 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #b45e9f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile15:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile16 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #e280ae;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile16:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile17 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #b90e69;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile17:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile18 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ec3ba8;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile18:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile19 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #db0f97;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile19:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+.tile20 {
+    margin: 5px;
+    float: left;
+    width: 125px;
+    height: 125px;
+    background-color: #ac0f3e;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.tile20:hover {
+    color: white;
+    background-color: pink;
+    transition: all 0.5s;
+}
+
+img {
+    width: 550px;
+    height: 378px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.square2 {
+    float: left;
+    width: 550px;
+    height: 542px;
+    /* background-color: rgb(163, 104, 27); */
+    margin-right: 5px;
+}
+
+
+/*
+.section-skils > div:hover .skil-icon {
+    -webkit-animation: fa-spin 1s infinite linear;
+    -moz-animation: fa-spin 1s infinite linear;
+    -o-animation: fa-spin 1s infinite linear;
+    animation: fa-spin 1s infinite linear;
+
+    obracanie się ikonki
+}*/
+
+
+
+
+
+
+

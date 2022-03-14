@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Kunegunda Kosek - Portfolio</title>
+    <meta name="description" content="Zapraszam do mojego portfolio!" />
+    <meta name="keywords" content="html, css, git, pierwsza strona, javascript, portfolio, bootstrap" />
+    <meta http-equiv="X-UA-Compatible" content="IR=edge,chrome=1" />
+
+    <link rel="stylesheet" href="cssboo/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Mono:wght@500&family=Syne+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a42805eadb.js" crossorigin="anonymous"></script>
+    
+    <script src="script.js"></script>
+    <script src="foto.js"></script>
+    
+</head>
+
+<body onload="time(); changeSlide();" >
+    <!-- Nawigacja -->
+    <header>
+        <nav class="navbar navbar-dark bg-navigation navbar-expand-lg">
+
+            <a class="navbar-brand" href="#"> Portfolio.pl</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+                aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainmenu">
+
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Start </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                            aria-expanded="false" id="submenu" aria-haspopup="true"> Info o mnie </a>
+
+                        <div class="dropdown-menu" aria-labelledby="submenu">
+
+                            <a class="dropdown-item" href="#"> CV </a>
+                            <a class="dropdown-item" href="#"> Umiejętności </a>
+
+                            <div class="dropdown-divider"></div>
+
+                            <a class="dropdown-item" href="#"> Co oferuję? </a>
+                            <a class="dropdown-item" href="#"> Moje prace </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Jak piszę kod? </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                            aria-expanded="false" id="submenu" aria-haspopup="true"> dodatki </a>
+
+                        <div class="dropdown-menu" aria-labelledby="submenu">
+                            <a class="dropdown-item" href="#"> gry </a>
+                            <a class="dropdown-item" href="#"> Kalendarz </a>
+                            <a class="dropdown-item" href="#"> Pogoda </a>
+                            <a class="dropdown-item" href="#"> Kalkulator </a>
+                            <a class="dropdown-item" href="#"> zegar </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Blog </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Kontakt </a>
+                    </li>
+
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-1" type="search" placeholder="wyszukaj" aria-label="Wyszukaj">
+                    <button class="btn btn-light" type="submit">Znajdź</button>
+
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- główna część -->
+
+
+    <div class="container">
+
+        <div class="rectangle">
+            <div class="name">Kunegunda Kosek</div>
+            <div id="clock"></div>
+            <div style="clear:both;"></div>
+        </div>
+
+        <div class="square">
+            <div class="description">Zapraszam do zapoznania się z moim portfolio
+                <div class="fa-2x">
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                    <i class="fa-solid fa-heart fa-beat"></i>
+                </div>
+            </div>
+            <div class="news">news</div>
+            <div class="tile1">
+                <a href="cv.html">
+                <i class="fa-solid fa-folder-open fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></a>
+            </div>
+            <div class="tile2">
+                <a href="achievements.html">
+                <i class="fa-solid fa-certificate fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></a>
+            </div>
+            <div class="tile3">
+                <a href="https://github.com/KunegundaKosek" target="_blank">
+                <i class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></i></a>
+            </div>
+            <div class="tile4">
+                <a href="https://www.linkedin.com/in/kunegunda-kosek-519199229/" target="_blank">
+                <i class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 2s;"></i></a>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+<!-- foto -->
+        <div class="square">
+
+            <div id="slider"></div>
+
+        </div>
+        <div style="clear:both;"></div>
+
+        <div class="square2">
+            <div class="news">news</div>
+            <div class="tile5">
+                <a href="code.html" target="_blank">
+                <i class="fa-solid fa-code fa-flip" style="--fa-animation-duration: 3s;" ></i></a>
+            </div>
+            <div class="tile6">
+                <div class="fa-1x">
+                    <i class="fa-solid fa-circle-info fa-beat-fade"
+                        style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
+                </div>
+
+            </div>
+            <div class="tile7">
+                <i class="fa-solid fa-cog fa-spin"></i>
+            </div>
+            <div class="tile8">
+                <i class="fa-solid fa-cog fa-spin"></i>
+            </div>
+            <div style="clear:both;"></div>
+
+            <div class="news">news</div>
+            <div class="tile9">
+                <i class="fa-solid fa-calculator fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </div>
+            <div class="tile10">
+                <i class="fa-solid fa-calendar-days fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </div>
+            <div class="tile11">
+                <i class="fa-solid fa-cloud-sun fa-beat" style="--fa-animation-duration: 2s;"></i>
+
+            </div>
+            <div class="tile12">
+                <i class="fa-solid fa-clock fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+
+        <div class="square2"></div>
+        <div style="clear:both;"></div>
+
+        <div class="square2">
+            <div class="news">news</div>
+            <div class="tile13">
+                <a href="game.html">
+                <i class="fa-solid fa-gamepad fa-shake"></i></a>
+            </div>
+            <div class="tile14">
+                <div class="fa-1x">
+                    <a href="cat.html">
+                    <i class="fa-solid fa-cat fa-shake"></i></a>
+                </div>
+
+            </div>
+            <div class="tile15">
+                <i class="fa-solid fa-question fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </div>
+            <div class="tile16">
+                <i class="fa-solid fa-cog fa-spin"></i>
+            </div>
+            <div style="clear:both;"></div>
+
+            <div class="news">news</div>
+            <div class="tile17">
+                <i class="fa-solid fa-map"></i>
+            </div>
+            <div class="tile18">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="tile19">
+                
+
+            </div>
+            <div class="tile20">
+                
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- stopka -->
+    <footer>
+
+    </footer>
+
+    <!-- skrypty JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
