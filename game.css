@@ -7,12 +7,12 @@ body {
 	display: block;
  }
  
- .navbar {
-	 min-height: 57px;
+.navbar {
+	min-height: 57px;
  }
  
- .bg-navigation {
-	 background-color: #bb075b !important;
+.bg-navigation {
+	background-color: #bb075b !important;
 }
 
 .content {

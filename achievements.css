@@ -1,0 +1,30 @@
+body
+{
+	background-image: linear-gradient(rgb(223, 39, 69), rgb(160, 16, 160), rgb(214, 86, 161), red);
+	color: #efefef;
+}
+
+.navbar-nav li:hover>.dropdown-menu {
+	display: block;
+ }
+ 
+ .navbar {
+	 min-height: 57px;
+ }
+ 
+ .bg-navigation {
+	 background-color: #bb075b !important;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 400;
+	color: #C0D06F;
+	margin: 20px;
+	font-family: 'Syne Mono', monospace;
+}
+
+.main {
+	height:1000px;
+}
+

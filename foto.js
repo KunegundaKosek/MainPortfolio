@@ -5,7 +5,7 @@ let number = Math.floor(Math.random()*5)+1;
 			
 			function changeSlide()
 			{
-				number++; if (number>5) number=1;
+				number++; if (number>7) number=1;
 				
 				var plik = "<img src=\"img/slide" + number + ".jpg\" />";
 				

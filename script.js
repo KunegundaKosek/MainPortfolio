@@ -1,6 +1,6 @@
-//rozwijanie się menu
 
- /*$( document ).ready( function () {
+
+/*$( document ).ready( function () {
     $( '.dropdown' ).on( 'click', function ( e ) {
         var $el = $( this );
         var $parent = $( this ).offsetParent( ".dropdown-menu" );
@@ -42,6 +42,8 @@ function time() {
      
      setTimeout("time()",1000);
 }
+
+
 
 
 
