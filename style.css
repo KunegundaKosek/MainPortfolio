@@ -1,5 +1,5 @@
 body {
-    background-image:linear-gradient(rgb(228, 111, 169), rgb(126, 27, 88), rgb(235, 57, 86));
+    background-image:linear-gradient(90deg, rgb(245, 91, 165), rgb(235, 194, 219), rgb(206, 80, 101));
     color: black;
 }
 /* nawigacja */
@@ -42,6 +42,7 @@ a:visited {
 .name {
     width: 550px;
     float: left;
+    height: 58px;
     background-color: rgb(160, 94, 94);
     text-align: center;
     font-family: 'Syne Mono', monospace;
@@ -51,6 +52,7 @@ a:visited {
 
 #clock {
     width: 550px;
+    height: 58px;
     margin-left: 5px;
     float: left;
     background-color: rgb(229, 147, 229);
@@ -58,6 +60,12 @@ a:visited {
     font-family: 'Syne Mono', monospace;
     font-size: 30px;
     color: pink;
+}
+
+.newsTop {
+    font-size: 30px;
+    color: purple;
+    font-family: 'Hubballi', cursive;
 }
 
 .square {
@@ -71,7 +79,7 @@ a:visited {
 .description {
     width: 540px;
     height: 200px;
-    background-color: rgb(230, 179, 86);
+    background-color: rgb(236, 205, 146);
     padding: 5px;
     margin: 5px;
     font-family: 'Roboto Mono', monospace;
@@ -664,6 +672,8 @@ p {
     font-size: 20px;
     padding: 0;
 }
+
+
 
 
 

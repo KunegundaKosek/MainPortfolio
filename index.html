@@ -2,313 +2,369 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Kunegunda Kosek - Portfolio</title>
-    <meta name="description" content="Zapraszam do mojego portfolio!" />
-    <meta name="keywords" content="html, css, git, pierwsza strona, javascript, portfolio, bootstrap" />
-    <meta http-equiv="X-UA-Compatible" content="IR=edge,chrome=1" />
+   <title>Kunegunda Kosek - Portfolio</title>
+   <meta name="description" content="Zapraszam do mojego portfolio!" />
+   <meta name="keywords" content="html, css, git, pierwsza strona, javascript, portfolio, bootstrap" />
+   <meta http-equiv="X-UA-Compatible" content="IR=edge,chrome=1" />
 
-    <link rel="stylesheet" href="cssboo/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Roboto+Mono:wght@500&family=Syne+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/a42805eadb.js" crossorigin="anonymous"></script>
-    
-    <script src="script.js"></script>
-    <script src="foto.js"></script>
-    
+   <link rel="stylesheet" href="cssboo/bootstrap.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link
+      href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=Roboto+Mono:wght@500&family=Syne+Mono&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <script src="https://kit.fontawesome.com/a42805eadb.js" crossorigin="anonymous"></script>
+
+   <script src="script.js"></script>
+   <script src="foto.js"></script>
+
 </head>
 
-<body onload="time(); changeSlide();" >
-    <!-- Nawigacja -->
-    <header>
-        <nav class="navbar navbar-dark bg-navigation navbar-expand-lg">
+<body onload="time(); changeSlide()">
+   <!-- Nawigacja -->
+   <header>
+      <nav class="navbar navbar-dark bg-navigation navbar-expand-lg">
 
-            <a class="navbar-brand" href="index.html"> Portfolio.pl</a>
+         <a class="navbar-brand" href="index.html"> Portfolio.pl</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
-                aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
+            aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+            <span class="navbar-toggler-icon"></span>
+         </button>
 
-            <div class="collapse navbar-collapse" id="mainmenu">
+         <div class="collapse navbar-collapse" id="mainmenu">
 
-                <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"> Start </a>
-                    </li>
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Start </a>
+               </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                            aria-expanded="false" id="submenu" aria-haspopup="true"> Info o mnie </a>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                     aria-expanded="false" id="submenu" aria-haspopup="true"> Info o mnie </a>
 
-                        <div class="dropdown-menu" aria-labelledby="submenu">
+                  <div class="dropdown-menu" aria-labelledby="submenu">
 
-                            <a class="dropdown-item" href="cv.html"> CV </a>
-                            <a class="dropdown-item" href="achievements.html"> Umiejętności </a>
+                     <a class="dropdown-item" href="cv.html"> CV </a>
+                     <a class="dropdown-item" href="achievements.html"> Umiejętności </a>
 
-                            <div class="dropdown-divider"></div>
+                     <div class="dropdown-divider"></div>
 
-                            <a class="dropdown-item" href="ja.html"> Co oferuję? </a>
-                            <a class="dropdown-item" href="work.html"> Moje prace </a>
-                        </div>
-                    </li>
+                     <a class="dropdown-item" href="ja.html"> Co oferuję? </a>
+                     <a class="dropdown-item" href="work.html"> Moje prace </a>
+                  </div>
+               </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="code.html"> Jak piszę kod? </a>
-                    </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="code.html"> Jak piszę kod? </a>
+               </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                            aria-expanded="false" id="submenu" aria-haspopup="true"> dodatki </a>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                     aria-expanded="false" id="submenu" aria-haspopup="true"> dodatki </a>
 
-                        <div class="dropdown-menu" aria-labelledby="submenu">
-                            <a class="dropdown-item" href="game.html"> gry </a>
-                            <a class="dropdown-item" href="calender.html"> Kalendarz </a>
-                            <a class="dropdown-item" href="weather.html"> Pogoda </a>
-                            <a class="dropdown-item" href="calc.html"> Kalkulator </a>
-                            <a class="dropdown-item" href="clock.html"> zegar </a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cat.html"> Blog </a>
-                    </li>
+                  <div class="dropdown-menu" aria-labelledby="submenu">
+                     <a class="dropdown-item" href="game.html"> gry </a>
+                     <a class="dropdown-item" href="calender.html"> Kalendarz </a>
+                     <a class="dropdown-item" href="weather.html"> Pogoda </a>
+                     <a class="dropdown-item" href="calc.html"> Kalkulator </a>
+                     <a class="dropdown-item" href="clock.html"> zegar </a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="cat.html"> Blog </a>
+               </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html"> Kontakt </a>
-                    </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html"> Kontakt </a>
+               </li>
 
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-1" type="search" placeholder="wyszukaj" aria-label="Wyszukaj">
-                    <button class="btn btn-light" type="submit">Znajdź</button>
+            </ul>
+            <form class="form-inline">
+               <input class="form-control mr-1" type="search" placeholder="wyszukaj" aria-label="Wyszukaj">
+               <button class="btn btn-light" type="submit">Znajdź</button>
 
-                </form>
-            </div>
-        </nav>
-    </header>
-
-    <!-- główna część -->
-
-
-    <div class="container">
-
-        <div class="rectangle">
-            <div class="name">Kunegunda Kosek</div>
-            <div id="clock"></div>
-            <div style="clear:both;"></div>
-        </div>
-
-        <div class="square">
-            <div class="description">Tutaj będzie jakiś tekst
-                <div class="fa-2x">
-                    <i class="fa-solid fa-heart fa-beat"></i>
-                    <i class="fa-solid fa-heart fa-beat"></i>
-                    <i class="fa-solid fa-heart fa-beat"></i>
-                    <i class="fa-solid fa-heart fa-beat"></i>
-                </div>
-            </div>
-            <div class="part1">
-                <!-- <p class="part1t">Co tu znajdziesz</p>
-
-                <i class="fa-solid fa-arrow-right"></i> -->
-
-            </div>
-            <div id="cv" class="tile1">
-                <a href="cv.html">
-                    <p id="cvTxt"></p>
-                <i class="fa-solid fa-folder-open fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></a>
-            </div>
-            <div id="certificates" class="tile2">
-                <a href="achievements.html">
-                    <p id="certificatesTxt"></p>
-                <i class="fa-solid fa-certificate fa-fade" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" ></i></a>
-            </div>
-            <div class="tile3">
-                <a href="https://github.com/KunegundaKosek" target="_blank">
-                <i class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></i></a>
-            </div>
-            <div class="tile4">
-                <a href="https://www.linkedin.com/in/kunegunda-kosek-519199229/" target="_blank">
-                <i class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 2s;"></i></a>
-            </div>
-            <div style="clear:both;"></div>
-        </div>
-<!-- foto -->
-        <div class="square">
-            
-            <div id="slider"></div>
-        
-
-        </div>
-        <div style="clear:both;"></div>
-
-        <div class="square2">
-            <div class="news">news</div>
-            <div class="tile5">
-                <a href="code.html" target="_blank">
-                <i class="fa-solid fa-code fa-flip" style="--fa-animation-duration: 3s;" ></i></a>
-            </div>
-            <div class="tile6">
-                <div class="fa-1x">
-                    <i class="fa-solid fa-circle-info fa-beat-fade"
-                        style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
-                </div>
-
-            </div>
-            <div class="tile7">
-                <i class="fa-solid fa-cog fa-spin"></i>
-            </div>
-            <div class="tile8">
-                <i class="fa-solid fa-cog fa-spin"></i>
-            </div>
-            <div style="clear:both;"></div>
-
-            <div class="news">news</div>
-            <div class="tile9">
-                <a href="calc.html">
-                <i class="fa-solid fa-calculator fa-beat" style="--fa-animation-duration: 2s;"></i></a>
-            </div>
-            <div class="tile10">
-                <i class="fa-solid fa-calendar-days fa-beat" style="--fa-animation-duration: 2s;"></i>
-            </div>
-            <div class="tile11">
-                <i class="fa-solid fa-cloud-sun fa-beat" style="--fa-animation-duration: 2s;"></i>
-
-            </div>
-            <div class="tile12">
-                <i class="fa-solid fa-clock fa-beat" style="--fa-animation-duration: 2s;"></i>
-            </div>
-            <div style="clear:both;"></div>
-        </div>
-
-        <div class="square2">
-
-            <div class="newss">
-                <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=2&bgcolor=%23D81B60&ctz=Europe%2FWarsaw&showTz=0&showCalendars=1&mode=MONTH&showTabs=0&showPrint=0&showDate=1&showNav=1&showTitle=0&src=cGwucG9saXNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043" style="border:solid 1px #777" width="265" height="250" frameborder="0" scrolling="no"></iframe>
-            </div>
-
-            <div class="newss">
-               
-            </div>
-
-            <div style="clear:both;"></div>
-
-            <div id="image">
-                <img src="img/toja.png" width="265" height="250">
-            </div>
-            <div class="data">
-                <p>Dane:<br>Kunegunda Kosek<br>
-                ###<br>tel.516-217-036<br>
-                kosekkunegunda@wp.pl</p>
-            </div>
-
-
-
-            </div>
-
-
-        <div style="clear:both;"></div>
-
-        <div class="square2">
-            <div class="news">news</div>
-            <div class="tile13">
-                <a href="game.html">
-                <i class="fa-solid fa-gamepad fa-shake"></i></a>
-            </div>
-            <div class="tile14">
-                <div class="fa-1x">
-                    <a href="cat.html">
-                    <i class="fa-solid fa-cat fa-shake"></i></a>
-                </div>
-
-            </div>
-            <div class="tile15">
-                <i class="fa-solid fa-question fa-beat" style="--fa-animation-duration: 2s;"></i>
-            </div>
-            <div class="tile16">
-                <i class="fa-solid fa-cog fa-spin"></i>
-            </div>
-            <div style="clear:both;"></div>
-
-            <div class="news">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80144.37663317783!2d16.960791631053784!3d51.117467570247335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1647431105605!5m2!1spl!2spl" width="270" height="260" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="tile17">
-                <a href="https://www.google.com/maps?ll=51.127078,16.991864&z=10&t=m&hl=pl&gl=PL&mapclient=embed&q=Wrocław" target="_blank"><i class="fa-solid fa-map"></i></a>
-            </div>
-            <div class="tile18">
-                <i class="fa-solid fa-mobile-screen-button"></i>
-            </div>
-            <div class="tile19">
-                
-
-            </div>
-            <div class="tile20">
-                
-            </div>
-            <div style="clear:both;"></div>
-        </div>
-
-        <div class="form">
-            <p class="f"><b>Formularz kontaktowy</b></p>
-            <form method="post" name="contactform" action="mail.php">
-                <div class="field half first">
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name" required placeholder="Imię">
-                </div>
-                <div class="field half">
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" required placeholder="Email">
-
-                </div>
-                <div class="field">
-                    <label for="message"></label>
-                    <textarea name="message" id="message" rows="4" required placeholder="Tutaj wpisz wiadomość"></textarea>
-                </div>
-                
-                    <input type="submit" name="submit" value="Wyślij" class="special" />
-                    <input type="reset" value="Reset" />
-                    <div style="clear:both;"></div>
-                
             </form>
-            <p class="f">Zapraszam do kontaktu</p>
+         </div>
+      </nav>
+   </header>
 
-    </div>
-    <div style="clear:both;"></div>
-
-
-
+   <!-- główna część -->
 
 
+   <div class="container">
+
+      <div class="rectangle">
+         <div class="name">
+            <marquee behavior="scroll" direction="left">Kunegunda Kosek
+            </marquee>
+         </div>
+         <div id="clock"></div>
+         <div style="clear:both;"></div>
+      </div>
+
+      <div class="square">
+         <div class="description">
+            Tutaj będzie jakiś tekst
+            <div class="fa-2x">
+               <i class="fa-solid fa-heart fa-beat"></i>
+               <i class="fa-solid fa-heart fa-beat"></i>
+               <i class="fa-solid fa-heart fa-beat"></i>
+               <i class="fa-solid fa-heart fa-beat"></i>
+            </div>
+         </div>
+         <div class="part1">
+            <p class="newsTop">
+               <marquee behavior="scroll" direction="left">Co tu znajdziesz
+               </marquee>
+            </p>
 
 
 
-    <!-- stopka -->
-    <footer>
-        <div class="footer">
+         </div>
+         <div id="cv" class="tile1">
+            <a href="cv.html">
+               <p id="cvTxt"></p>
+               <i class="fa-solid fa-folder-open fa-fade"
+                  style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"></i>
+            </a>
+         </div>
+         <div id="certificates" class="tile2">
+            <a href="achievements.html">
+               <p id="certificatesTxt"></p>
+               <i class="fa-solid fa-certificate fa-fade"
+                  style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"></i>
+            </a>
+         </div>
+         <div id="git" class="tile3">
+            <a href="https://github.com/KunegundaKosek" target="_blank">
+               <p id="gitTxt"></p>
+               <i class="fa-brands fa-github fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </a>
+         </div>
+         <div id="li" class="tile4">
+            <a href="https://www.linkedin.com/in/kunegunda-kosek-519199229/" target="_blank">
+               <p id="liTxt"></p>
+               <i class="fa-brands fa-linkedin fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </a>
+         </div>
+         <div style="clear:both;"></div>
+      </div>
+      <!-- foto -->
+      <div class="square">
+
+         <div id="slider"></div>
+
+
+      </div>
+      <div style="clear:both;"></div>
+
+      <div class="square2">
+         <div class="news">news</div>
+         <div id="code" class="tile5">
+            <a href="code.html" target="_blank">
+               <p id="codeTxt"></p>
+               <i class="fa-solid fa-code fa-flip" style="--fa-animation-duration: 3s;"></i>
+            </a>
+         </div>
+         <div id="info" class="tile6">
+            <div class="fa-1x">
+               <p id="infoTxt"></p>
+
+               <i class="fa-solid fa-circle-info fa-beat-fade"
+                  style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;"></i>
+            </div>
+
+         </div>
+         <div id="build" class="tile7">
+            <p id="buildTxt"></p>
+
+            <i class="fa-solid fa-cog fa-spin"></i>
+         </div>
+         <div id="build2" class="tile8">
+            <p id="build2Txt"></p>
+
+            <i class="fa-solid fa-cog fa-spin"></i>
+         </div>
+         <div style="clear:both;"></div>
+
+         <div class="news">news</div>
+         <div id="calc" class="tile9">
+            <a href="calc.html">
+               <p id="calcTxt"></p>
+
+               <i class="fa-solid fa-calculator fa-beat" style="--fa-animation-duration: 2s;"></i>
+            </a>
+         </div>
+         <div id="calendar" class="tile10">
+            <p id="calendarTxt"></p>
+
+            <i class="fa-solid fa-calendar-days fa-beat" style="--fa-animation-duration: 2s;"></i>
+         </div>
+         <div id="weather" class="tile11">
+            <p id="weatherTxt"></p>
+
+            <i class="fa-solid fa-cloud-sun fa-beat" style="--fa-animation-duration: 2s;"></i>
+
+         </div>
+         <div id="wath" class="tile12">
+            <p id="wathTxt"></p>
+
+            <i class="fa-solid fa-clock fa-beat" style="--fa-animation-duration: 2s;"></i>
+         </div>
+         <div style="clear:both;"></div>
+      </div>
+
+      <div class="square2">
+
+         <div class="newss">
+            <iframe
+               src="https://calendar.google.com/calendar/embed?height=250&wkst=2&bgcolor=%23D81B60&ctz=Europe%2FWarsaw&showTz=0&showCalendars=1&mode=MONTH&showTabs=0&showPrint=0&showDate=1&showNav=1&showTitle=0&src=cGwucG9saXNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%230B8043"
+               style="border:solid 1px #777" width="265" height="250" frameborder="0" scrolling="no"></iframe>
+         </div>
+
+         <div class="newss">
+
+         </div>
+
+         <div style="clear:both;"></div>
+
+         <div id="image">
+            <img src="img/toja.png" width="265" height="250">
+         </div>
+         <div class="data">
+            <p>Dane:<br>Kunegunda Kosek<br>
+               ###<br>tel.516-217-036<br>
+               kosekkunegunda@wp.pl</p>
+         </div>
+
+
+
+      </div>
+
+
+      <div style="clear:both;"></div>
+
+      <div class="square2">
+         <div class="news">news</div>
+         <div id="gamer" class="tile13">
+            <a href="game.html">
+               <p id="gamerTxt"></p>
+
+               <i class="fa-solid fa-gamepad fa-shake"></i>
+            </a>
+         </div>
+         <div class="tile14">
+            <div id="cat" class="fa-1x">
+               <a href="cat.html">
+
+                  <p id="catTxt"></p>
+
+                  <i class="fa-solid fa-cat fa-shake"></i>
+               </a>
+            </div>
+
+         </div>
+         <div id="findNumber" class="tile15">
+            <p id="findNumberTxt"></p>
+
+            <i class="fa-solid fa-question fa-beat" style="--fa-animation-duration: 2s;"></i>
+         </div>
+         <div id="build3" class="tile16">
+            <p id="build3Txt"></p>
+
+            <i class="fa-solid fa-cog fa-spin"></i>
+         </div>
+         <div style="clear:both;"></div>
+
+         <div class="news">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80144.37663317783!2d16.960791631053784!3d51.117467570247335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9c2d4b58abf%3A0xb70956aec205e0f5!2zV3JvY8WCYXc!5e0!3m2!1spl!2spl!4v1647431105605!5m2!1spl!2spl"
+               width="270" height="260" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </div>
+         <div id="mapp" class="tile17">
+            <a href="https://www.google.com/maps?ll=51.127078,16.991864&z=10&t=m&hl=pl&gl=PL&mapclient=embed&q=Wrocław"
+               target="_blank">
+               <p id="mappTxt"></p>
+
+               <i class="fa-solid fa-map"></i>
+            </a>
+         </div>
+         <div id="phone" class="tile18">
+            <p id="phoneTxt"></p>
+
+            <i class="fa-solid fa-mobile-screen-button"></i>
+         </div>
+         <div class="tile19">
+
+
+         </div>
+         <div class="tile20">
+
+         </div>
+         <div style="clear:both;"></div>
+      </div>
+
+      <div class="form">
+         <p class="f"><b>Formularz kontaktowy</b></p>
+         <form method="post" name="contactform" action="mail.php">
+            <div class="field half first">
+               <label for="name"></label>
+               <input type="text" name="name" id="name" required placeholder="Imię">
+            </div>
+            <div class="field half">
+               <label for="email"></label>
+               <input type="email" name="email" id="email" required placeholder="Email">
+
+            </div>
+            <div class="field">
+               <label for="message"></label>
+               <textarea name="message" id="message" rows="4" required placeholder="Tutaj wpisz wiadomość"></textarea>
+            </div>
+
+            <input type="submit" name="submit" value="Wyślij" class="special" />
+            <input type="reset" value="Reset" />
+            <div style="clear:both;"></div>
+
+         </form>
+         <p class="f">Zapraszam do kontaktu</p>
+
+      </div>
+      <div style="clear:both;"></div>
+
+
+
+
+
+
+
+      <!-- stopka -->
+      <!-- <footer>
+         <div class="footer">
             Wszelkie prawa zastrzeżone XDDD
-        </div>
-    </footer>
+         </div>
+      </footer> -->
+      <br><br><br><br>
 
-    
 
-    <!-- skrypty JS -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+      <!-- skrypty JS -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script src="ikonki.js"></script>
-    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+      </script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
+      <script src="ikonki.js"></script>
+
 
 
 </body>
