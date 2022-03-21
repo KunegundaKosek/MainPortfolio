@@ -86,8 +86,8 @@ a:visited {
     color: rgb(119, 6, 31);
     font-size: 25px;
     text-align: center;
+    border-radius: 10px;
 }
-
 
 .news {
     width: 270px;
@@ -95,6 +95,7 @@ a:visited {
     background-color: darkgreen;
     height: 260px;
     float: left;
+    border-radius: 10px;
 }
 
 .part1 {
@@ -105,14 +106,11 @@ a:visited {
     float: left;
     font-size: 40px;
     text-align: center;
-}
-
-.part1t {
-    text-align: end;
-    font-size: 30px;
+    border-radius: 10px;
 }
 
 .part1:hover {
+    color: white;
     background-color: deeppink;
     transition: all 2s;
 }
@@ -634,9 +632,10 @@ label {
 .newss {
     width: 265px;
     margin: 5px;
-    background-color: rgb(20, 160, 195);
+    background-color: rgb(189, 20, 195);
     height: 250px;
     float: left;
+    border-radius: 10px;
 }
 
 .data {
@@ -650,6 +649,7 @@ label {
     padding: 10px;
     font-family: 'Roboto Mono', monospace;
     background-color: pink;
+    border-radius: 10px;
 }
 
 #image {
@@ -671,6 +671,10 @@ p {
     text-align: center;
     font-size: 20px;
     padding: 0;
+}
+
+.dropdown-item {
+    background-color: rgb(76, 12, 92);
 }
 
 
