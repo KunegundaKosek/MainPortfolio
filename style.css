@@ -32,7 +32,7 @@ a:visited {
  }
 
 .container {
-    width: 1431px;
+    margin-bottom: 50px;
 }
 
 .rectangle {
@@ -48,6 +48,7 @@ a:visited {
     font-family: 'Syne Mono', monospace;
     font-size: 30px;
     color: pink;
+    margin-left: 10px;
 }
 
 #clock {
@@ -60,6 +61,7 @@ a:visited {
     font-family: 'Syne Mono', monospace;
     font-size: 30px;
     color: pink;
+    margin-top: 15px;
 }
 
 .newsTop {
@@ -127,12 +129,17 @@ a:visited {
     padding:0;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile1:hover {
     color: white;
     background-color: pink;
     transition: all 0.5s;
+
+}
+#cv:hover {
+    overflow: hidden;
 }
 
 .tile2 {
@@ -146,6 +153,7 @@ a:visited {
     font-size: 60px;
     padding: 0px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile2:hover {
@@ -165,6 +173,7 @@ a:visited {
     font-size: 60px;
     padding: 0px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile3:hover {
@@ -184,6 +193,7 @@ a:visited {
     font-size: 60px;
     padding: 0px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile4:hover {
@@ -204,6 +214,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile5:hover {
@@ -224,6 +235,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile6:hover {
@@ -244,6 +256,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile7:hover {
@@ -264,6 +277,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile8:hover {
@@ -284,6 +298,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile9:hover {
@@ -304,6 +319,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile10:hover {
@@ -324,6 +340,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile11:hover {
@@ -344,6 +361,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile12:hover {
@@ -364,6 +382,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile13:hover {
@@ -384,6 +403,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile14:hover {
@@ -404,6 +424,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile15:hover {
@@ -424,6 +445,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile16:hover {
@@ -444,6 +466,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile17:hover {
@@ -464,6 +487,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile18:hover {
@@ -484,6 +508,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile19:hover {
@@ -504,6 +529,7 @@ a:visited {
     padding: 0px;
     text-decoration: none;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .tile20:hover {
@@ -514,6 +540,7 @@ a:visited {
 
 #slider {
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 /* img {
@@ -527,7 +554,8 @@ a:visited {
     width: 550px;
     height: 542px;
     /* background-color: rgb(163, 104, 27); */
-    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 .form {
@@ -538,10 +566,8 @@ a:visited {
     background-image: url("img/hexellence.png");
     padding: 10px;
     margin: auto;
-    border-radius: 20px;
-    -webkit-box-shadow: 3px 3px 30px 5px rgba(200, 194, 208, 1);
-    -moz-box-shadow: 3px 3px 30px 5px rgba(200, 194, 208, 1);
-    box-shadow: 3px 3px 30px 5px rgba(200, 194, 208, 1);    
+    margin-left: 5px;
+ 
 }
 
 input[type=text],
@@ -603,7 +629,7 @@ input[type=reset]:hover {
 }
 
 
-.f {
+.sheet {
     margin-top: 30px;
     text-align: center;
     color: rgb(34, 4, 46);
@@ -668,14 +694,92 @@ label {
 }
 
 p {
+    margin-top: 10px;
     text-align: center;
     font-size: 20px;
-    padding: 0;
+    overflow: hidden;
 }
 
 .dropdown-item {
     background-color: rgb(76, 12, 92);
 }
+
+.ball {
+    background-image: url("img/niebo.jpg");
+}
+
+.project {
+    width: 1100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.project:hover {
+    background-color: #ac1a7b;
+    transition: all ease-in-out 0.5s;
+}
+
+#projectDescription{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgb(99, 17, 57), rgb(202, 56, 222));
+    border-radius: 10px;
+}
+
+.projects {
+    width: 1100px;
+    height: 1400px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.task {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e275b4;
+    color: white;
+    font-size: 120px;
+}
+.task:hover {
+    background-color: #ff9500;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.taskI {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e464f5;
+    color: white;
+    font-size: 120px;
+}
+
+.taskI:hover {
+    background-color: #ff9100;
+    transition: ease-in-out 0.5s;
+    cursor:pointer;
+}
+
+.footer {
+    width: 100%;
+}
+
 
 
 

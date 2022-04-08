@@ -4,7 +4,7 @@ const cv = document.getElementById('cv');
 const text = document.getElementById('text');
 
 cv.addEventListener("mouseover",function(){
-    cvTxt.innerHTML = "Moje cv";
+    cvTxt.innerHTML = "Moje CV <br><br><br>";
 })
 
 cv.addEventListener("mouseout",function(){
@@ -15,7 +15,7 @@ cv.addEventListener("mouseout",function(){
 const certificates = document.getElementById('certificates')
 const certificatesTxt = document.getElementById('certificatesTxt')
 certificates.addEventListener("mouseover",function(){
-    certificatesTxt.innerHTML = "Certyfikaty";
+    certificatesTxt.innerHTML = "Zdobyte certyfikaty<br><br><br>";
 })
 
 certificates.addEventListener("mouseout",function(){
@@ -26,7 +26,7 @@ certificates.addEventListener("mouseout",function(){
 const git = document.getElementById('git')
 const gitTxt = document.getElementById('gitTxt')
 git.addEventListener("mouseover",function(){
-    gitTxt.innerHTML = "GitHub";
+    gitTxt.innerHTML = "Mój profil na GitHub<br><br><br>";
 })
 
 git.addEventListener("mouseout",function(){
@@ -36,7 +36,7 @@ git.addEventListener("mouseout",function(){
 const li = document.getElementById('li')
 const liTxt = document.getElementById('liTxt')
 li.addEventListener("mouseover",function(){
-    liTxt.innerHTML = "LinkedIn";
+    liTxt.innerHTML = "Zobacz mnie na LinkedIn<br><br><br>";
 })
 
 li.addEventListener("mouseout",function(){
@@ -46,7 +46,7 @@ li.addEventListener("mouseout",function(){
 const code = document.getElementById('code')
 const codeTxt = document.getElementById('codeTxt')
 code.addEventListener("mouseover",function(){
-    codeTxt.innerHTML = "Projekty";
+    codeTxt.innerHTML = "Spis projektów<br><br><br>";
 })
 
 code.addEventListener("mouseout",function(){
@@ -58,7 +58,7 @@ code.addEventListener("mouseout",function(){
 const info = document.getElementById('info')
 const infoTxt = document.getElementById('infoTxt')
 info.addEventListener("mouseover",function(){
-    infoTxt.innerHTML = "Informacje";
+    infoTxt.innerHTML = "Informacje<br><br><br>";
 })
 
 info.addEventListener("mouseout",function(){
@@ -68,7 +68,7 @@ info.addEventListener("mouseout",function(){
 const build = document.getElementById('build')
 const buildTxt = document.getElementById('buildTxt')
 build.addEventListener("mouseover",function(){
-    buildTxt.innerHTML = "Strona w budowie";
+    buildTxt.innerHTML = "Strona w budowie<br><br><br>";
 })
 
 build.addEventListener("mouseout",function(){
@@ -79,7 +79,7 @@ build.addEventListener("mouseout",function(){
 const build2 = document.getElementById('build2')
 const build2Txt = document.getElementById('build2Txt')
 build2.addEventListener("mouseover",function(){
-    build2Txt.innerHTML = "Strona w budowie";
+    build2Txt.innerHTML = "Strona w budowie<br><br><br>";
 })
 
 build2.addEventListener("mouseout",function(){
@@ -90,7 +90,7 @@ build2.addEventListener("mouseout",function(){
 const calc = document.getElementById('calc')
 const calcTxt = document.getElementById('calcTxt')
 calc.addEventListener("mouseover",function(){
-    calcTxt.innerHTML = "Kalkulator";
+    calcTxt.innerHTML = "Kalkulator<br><br><br>";
 })
 
 calc.addEventListener("mouseout",function(){
@@ -100,7 +100,7 @@ calc.addEventListener("mouseout",function(){
 const calendar = document.getElementById('calendar')
 const calendarTxt = document.getElementById('calendarTxt')
 calendar.addEventListener("mouseover",function(){
-    calendarTxt.innerHTML = "Kalendarz";
+    calendarTxt.innerHTML = "Kalendarz<br><br><br>";
 })
 
 calendar.addEventListener("mouseout",function(){

@@ -45,7 +45,7 @@
 
                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
-                     aria-expanded="false" id="submenu" aria-haspopup="true"> ##### </a>
+                     aria-expanded="false" id="submenu" aria-haspopup="true"> O mnie </a>
 
                   <div class="dropdown-menu" aria-labelledby="submenu">
 
@@ -54,13 +54,13 @@
 
                      <div class="dropdown-divider"></div>
 
-                     <a class="dropdown-item" href="ja.html"> #### </a>
+                     <a class="dropdown-item" href="ja.html"> Certyfikaty </a>
                      <a class="dropdown-item" href="work.html"> Moje prace </a>
                   </div>
                </li>
 
                <li class="nav-item">
-                  <a class="nav-link" href="code.html"> ###### </a>
+                  <a class="nav-link" href="code.html"> Kod </a>
                </li>
 
                <li class="nav-item dropdown">
@@ -95,16 +95,21 @@
 
    <!-- główna część -->
 
-
+<!-- <main> -->
    <div class="container">
-
-      <div class="rectangle">
-         <div class="name">
-            <marquee behavior="scroll" direction="left">Kunegunda Kosek
-            </marquee>
+      <div class="row">
+         <div clss="container-sm-3 col-md-2 col-lg-3">
+            <div class="rectangle">
+               <div class="name">
+                  <marquee behavior="scroll" direction="left">Kunegunda Kosek
+                  </marquee>
+               </div>
+            </div>
          </div>
-         <div id="clock"></div>
-         <div style="clear:both;"></div>
+         <div class="container-sm-3 col-md-2 col-lg-3">
+            <div id="clock"></div>
+            <div style="clear:both;"></div>
+         </div>
       </div>
 
       <div class="square">
@@ -165,11 +170,12 @@
 
       <div class="square2">
          <div class="news">
-            <marquee direction="left" behavior="alternate" width="270" height="260" style="border:solid" bgcolor="#2196f3">
-                <marquee direction="up" behavior="alternate" height="260" >
-                     <img src="img/ball.png" width="50" height="50" alt="Piłka" />
-                </marquee>
-               </marquee>
+            <marquee class="ball" direction="left" behavior="alternate" width="270" height="260" style="border:solid"
+               >
+                <marquee direction="up" behavior="alternate" height="260">
+                  <img src="img/ball.png" width="50" height="50" alt="Piłka" />
+                   </marquee>
+            </marquee>
          </div>
          <div id="code" class="tile5">
             <a href="code.html" target="_blank">
@@ -199,7 +205,7 @@
          <div style="clear:both;"></div>
 
          <div class="news">
-            
+
          </div>
          <div id="calc" class="tile9">
             <a href="calc.html">
@@ -245,9 +251,9 @@
             <img src="img/toja.png" width="265" height="250">
          </div>
          <div class="data">
-            <p>Dane:<br>Kunegunda Kosek<br>
+            Dane:<br>Kunegunda Kosek<br>
                ###<br>tel.516-217-036<br>
-               kosekkunegunda@wp.pl</p>
+               kosekkunegunda@wp.pl
          </div>
 
 
@@ -259,7 +265,7 @@
 
       <div class="square2">
          <div class="news">
-            
+
          </div>
          <div id="gamer" class="tile13">
             <a href="game.html">
@@ -320,7 +326,7 @@
       </div>
 
       <div class="form">
-         <p class="f"><b>Formularz kontaktowy</b></p>
+         <p class="sheet"><b>Formularz kontaktowy</b></p>
          <form method="post" name="contactform" action="mail.php">
             <div class="field half first">
                <label for="name"></label>
@@ -348,32 +354,53 @@
 
 
 
-      
+   </div>
+
+   <div class="project"><code>Moje najnowsze projekty</code></div>
+   <div id="projectDescription">
+      <span class="projectText"></span>
+   </div>
+   <div class="projects">
+
+      <div class="taskI"><a href="Projekty/Projekt1/zadanie1.html" target="_blank"><i class="fa-solid fa-square-root-variable"></i></div></a>
+      <div class="task"><a href="Projekty/Projekt2/zadanie2.html" target="_blank"><i class="fa-regular fa-square"></i></div></a>
+      <div class="taskI"><i class="fa-solid fa-paint-roller"></i></div>
+      <div class="task"><i class="fa-solid fa-arrow-down-z-a"></i></div>
+      <div class="taskI"><i class="fa-solid fa-circle-dot"></i></div>
+      <div class="task"><i class="fa-solid fa-eye-dropper"></i></div>
+      <div class="taskI"><i class="fa-solid fa-computer-mouse"></i></div>
+      <div class="task"><i class="fa-solid fa-arrow-pointer"></i></div>
+      <div class="taskI"><i class="fa-solid fa-keyboard"></i></div>
+      <div class="task"><i class="fa-solid fa-arrow-pointer"></i></div>
+      <div class="taskI"></div>
+      <div class="task"></div>
+      <div class="taskI"></div>
+      <div class="task"></div>
+      <div class="taskI"></div>
+      <div class="task"></div>
 
 
-
-      <!-- stopka -->
-      <!-- <footer>
+   </div>
+   <!-- </main> -->
+       <footer>
          <div class="footer">
             Wszelkie prawa zastrzeżone XDDD
          </div>
-      </footer> -->
+      </footer>
       <br><br><br><br>
 
+   <!-- skrypty JS -->
 
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+   </script>
 
-      <!-- skrypty JS -->
-
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-      </script>
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-      </script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="script.js"></script>
-      <script src="ikonki.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+   </script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="script.js"></script>
+   <script src="ikonki.js"></script>
 
 
 
