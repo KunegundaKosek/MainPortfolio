@@ -1,6 +1,7 @@
 body {
     background-image:linear-gradient(90deg, rgb(245, 91, 165), rgb(235, 194, 219), rgb(206, 80, 101));
     color: black;
+    background-attachment: fixed;
 }
 /* nawigacja */
 .navbar-nav li:hover>.dropdown-menu {
@@ -40,7 +41,7 @@ a:visited {
 }
 
 .name {
-    width: 550px;
+    width: 540px;
     float: left;
     height: 58px;
     background-color: rgb(160, 94, 94);
@@ -48,11 +49,15 @@ a:visited {
     font-family: 'Syne Mono', monospace;
     font-size: 30px;
     color: pink;
-    margin-left: 10px;
+    margin-left: 20px;
+}
+.name:hover {
+    background-color: rgb(236, 135, 135);
+    transition: all 1s;
 }
 
 #clock {
-    width: 550px;
+    width: 540px;
     height: 58px;
     margin-left: 5px;
     float: left;
@@ -63,11 +68,16 @@ a:visited {
     color: pink;
     margin-top: 15px;
 }
+#clock:hover {
+    background-color: rgb(233, 61, 233);
+    transition: all 1s;
+}
 
 .newsTop {
-    font-size: 30px;
-    color: purple;
+    font-size: 40px;
+    color: rgb(20, 236, 45);
     font-family: 'Hubballi', cursive;
+    font-weight: 700;
 }
 
 .square {
@@ -94,7 +104,7 @@ a:visited {
 .news {
     width: 270px;
     margin: 5px;
-    background-color: darkgreen;
+    background-color: rgb(132, 87, 167);
     height: 260px;
     float: left;
     border-radius: 10px;
@@ -102,9 +112,9 @@ a:visited {
 
 .part1 {
     width: 270px;
-    margin: 5px;
-    background-color: pink;
     height: 260px;
+    margin: 5px;
+    background-color: rgb(242, 77, 149);
     float: left;
     font-size: 40px;
     text-align: center;
@@ -113,7 +123,7 @@ a:visited {
 
 .part1:hover {
     color: white;
-    background-color: deeppink;
+    background-color: rgb(142, 21, 228);
     transition: all 2s;
 }
 
@@ -658,10 +668,18 @@ label {
 .newss {
     width: 265px;
     margin: 5px;
-    background-color: rgb(189, 20, 195);
+    background-color: #c4302b;
     height: 250px;
     float: left;
     border-radius: 10px;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
+
+.newss:hover {
+    background-color: #ba4b4b;
+    transition: all ease-in-out 0.5s;
 }
 
 .data {
@@ -672,10 +690,11 @@ label {
     border: 3px solid rgb(255, 2, 107);
     text-align: justify;
     font-size: 20px;
-    padding: 10px;
     font-family: 'Roboto Mono', monospace;
     background-color: pink;
     border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #image {
@@ -709,9 +728,10 @@ p {
 }
 
 .project {
-    width: 1100px;
+    width: 100%;
     height: 100px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
     font-size: 60px;
     background-color: white;
@@ -721,6 +741,7 @@ p {
 .project:hover {
     background-color: #ac1a7b;
     transition: all ease-in-out 0.5s;
+    color: white;
 }
 
 #projectDescription{
@@ -778,9 +799,13 @@ p {
 
 .footer {
     width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 0;
 }
-
-
 
 
 

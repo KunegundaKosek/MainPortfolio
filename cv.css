@@ -1,7 +1,7 @@
 body {
     background-image: url(img/cv.png);
     color: black;
-
+    background-attachment: fixed;
 }
 
 /* nawigacja */
@@ -54,6 +54,16 @@ a {
     margin-left: 100px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+.background {
+    background-color: rgba(216, 112, 147, 0.416);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
 
 .foto {
     width: 300px;
@@ -61,38 +71,169 @@ a {
     margin-left: 50px;
 }
 
-.description {
-    margin-top: 40px;
-    color: pink;
-    background-color: #4b054d9b;
-    font-family: 'Righteous', cursive;
-    text-align: center;
-}
-
 .text {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .square {
-    background-color: #a83a08f8;
-    width: 465px;
-    height: 400px;
+    width: 950px;
+    height: 200px;
     margin: 10px;
-    float: left;
     padding: 10px;
     font-size: 58px;
     text-align: center;
+    margin-top: 80px;
 }
 
 .achievements {
-    background-color: #a83a08f8;
-    width: 465px;
+    border: 10px solid black;
+    width: 950px;
     height: 400px;
     margin: 10px;
     float: left;
     padding: 10px;
-    font-size: 58px;
+    font-size: 80px;
+    text-align: center;
+    color: purple;
+    background-color: rgba(186, 137, 235, 0.279);
+}
+
+.title {
+    background-color: pink;
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+.work {
+    font-size: 30px;
+}
+
+.skills-right {
+    border: 3px solid black;
+    width: 750px;
+    height: 200px;
+    background-color: rgba(255, 192, 203, 0.665);
+    text-align: end;
+    float: left;
+    padding: 15px;
+}
+
+.skills-right:hover {
+    background-color: white;
+    transition: all 1s;
+}
+
+.ikona {
+    width: 180px;
+    height: 180px;
+    font-size: 100px;
+    color: black;
+    background-color: rgba(198, 35, 106, 0.665);
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 40px;
+    float: right;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.ikona:hover {
+    background-color: orange;
+    transition: all 1s;
+}
+
+
+.skills-left {
+    border: 3px solid black;
+    width: 770px;
+    height: 200px;
+    background-color: rgba(232, 192, 255, 0.665);
+    text-align: left;
+    float: right;
+    padding: 15px;
+}
+
+.skills-left:hover {
+    background-color: white;
+    transition: all 1s;
+}
+
+p{
+    font-size: 30px;
+}
+
+.certificate {
+    margin-top: 40px;
+    background-color: rgba(203, 39, 102, 0.602);
     text-align: center;
 }
+
+h3 {
+    font-size: 50px;
+}
+
+.c1 {
+    width: 930px;
+    height: 280px;
+    border: 5px solid blue;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(240, 112, 193, 0.631);
+}
+.c2 {
+    width: 930px;
+    height: 280px;
+    border: 5px solid blue;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(166, 110, 229, 0.548);
+}
+
+.c3 {
+    width: 930px;
+    height: 280px;
+    border: 5px solid blue;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(128, 0, 128, 0.433);
+}
+
+input {
+    width: 150px;
+    margin-top: 10px;
+    font-size:20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.language {
+    font-size: 150px;
+}
+.english {
+
+    text-align: center;
+}
+.german {
+    text-align: center;
+}
+
+.linear {
+    border-top: 3px solid rgb(131, 20, 57);
+    width: 100%;
+    margin-top: 150px;
+}
+ 
+.klauzula {
+    margin-top: 220px;
+    width: 900px;
+    font-size: 20px;
+    text-align: justify;
+}
+

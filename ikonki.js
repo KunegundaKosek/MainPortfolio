@@ -4,7 +4,7 @@ const cv = document.getElementById('cv');
 const text = document.getElementById('text');
 
 cv.addEventListener("mouseover",function(){
-    cvTxt.innerHTML = "Moje CV <br><br><br>";
+    cvTxt.innerHTML = "<br>Moje CV <br><br><br>";
 })
 
 cv.addEventListener("mouseout",function(){
@@ -15,7 +15,7 @@ cv.addEventListener("mouseout",function(){
 const certificates = document.getElementById('certificates')
 const certificatesTxt = document.getElementById('certificatesTxt')
 certificates.addEventListener("mouseover",function(){
-    certificatesTxt.innerHTML = "Zdobyte certyfikaty<br><br><br>";
+    certificatesTxt.innerHTML = "<br>Zdobyte certyfikaty<br><br><br>";
 })
 
 certificates.addEventListener("mouseout",function(){
@@ -26,7 +26,7 @@ certificates.addEventListener("mouseout",function(){
 const git = document.getElementById('git')
 const gitTxt = document.getElementById('gitTxt')
 git.addEventListener("mouseover",function(){
-    gitTxt.innerHTML = "Mój profil na GitHub<br><br><br>";
+    gitTxt.innerHTML = "<br>GitHub<br><br><br>";
 })
 
 git.addEventListener("mouseout",function(){
@@ -36,7 +36,7 @@ git.addEventListener("mouseout",function(){
 const li = document.getElementById('li')
 const liTxt = document.getElementById('liTxt')
 li.addEventListener("mouseover",function(){
-    liTxt.innerHTML = "Zobacz mnie na LinkedIn<br><br><br>";
+    liTxt.innerHTML = "<br>LinkedIn<br><br><br>";
 })
 
 li.addEventListener("mouseout",function(){
@@ -46,7 +46,7 @@ li.addEventListener("mouseout",function(){
 const code = document.getElementById('code')
 const codeTxt = document.getElementById('codeTxt')
 code.addEventListener("mouseover",function(){
-    codeTxt.innerHTML = "Spis projektów<br><br><br>";
+    codeTxt.innerHTML = "<br>Spis projektów<br><br><br>";
 })
 
 code.addEventListener("mouseout",function(){
@@ -58,7 +58,7 @@ code.addEventListener("mouseout",function(){
 const info = document.getElementById('info')
 const infoTxt = document.getElementById('infoTxt')
 info.addEventListener("mouseover",function(){
-    infoTxt.innerHTML = "Informacje<br><br><br>";
+    infoTxt.innerHTML = "<br>Informacje<br><br><br>";
 })
 
 info.addEventListener("mouseout",function(){
@@ -68,7 +68,7 @@ info.addEventListener("mouseout",function(){
 const build = document.getElementById('build')
 const buildTxt = document.getElementById('buildTxt')
 build.addEventListener("mouseover",function(){
-    buildTxt.innerHTML = "Strona w budowie<br><br><br>";
+    buildTxt.innerHTML = "<br>Strona w budowie<br><br><br>";
 })
 
 build.addEventListener("mouseout",function(){
@@ -79,7 +79,7 @@ build.addEventListener("mouseout",function(){
 const build2 = document.getElementById('build2')
 const build2Txt = document.getElementById('build2Txt')
 build2.addEventListener("mouseover",function(){
-    build2Txt.innerHTML = "Strona w budowie<br><br><br>";
+    build2Txt.innerHTML = "<br>Strona w budowie<br><br><br>";
 })
 
 build2.addEventListener("mouseout",function(){
@@ -90,7 +90,7 @@ build2.addEventListener("mouseout",function(){
 const calc = document.getElementById('calc')
 const calcTxt = document.getElementById('calcTxt')
 calc.addEventListener("mouseover",function(){
-    calcTxt.innerHTML = "Kalkulator<br><br><br>";
+    calcTxt.innerHTML = "<br>Kalkulator<br><br><br>";
 })
 
 calc.addEventListener("mouseout",function(){
@@ -100,7 +100,7 @@ calc.addEventListener("mouseout",function(){
 const calendar = document.getElementById('calendar')
 const calendarTxt = document.getElementById('calendarTxt')
 calendar.addEventListener("mouseover",function(){
-    calendarTxt.innerHTML = "Kalendarz<br><br><br>";
+    calendarTxt.innerHTML = "<br>Kalendarz<br><br><br>";
 })
 
 calendar.addEventListener("mouseout",function(){
@@ -110,7 +110,7 @@ calendar.addEventListener("mouseout",function(){
 const weather = document.getElementById('weather')
 const weatherTxt = document.getElementById('weatherTxt')
 weather.addEventListener("mouseover",function(){
-    weatherTxt.innerHTML = "Pogoda";
+    weatherTxt.innerHTML = "<br>Pogoda<br><br><br>";
 })
 
 weather.addEventListener("mouseout",function(){
@@ -120,7 +120,7 @@ weather.addEventListener("mouseout",function(){
 const wath = document.getElementById('wath')
 const wathTxt = document.getElementById('wathTxt')
 wath.addEventListener("mouseover",function(){
-    wathTxt.innerHTML = "Zegar";
+    wathTxt.innerHTML = "<br>Zegar<br><br><br>";
 })
 
 wath.addEventListener("mouseout",function(){
@@ -130,7 +130,7 @@ wath.addEventListener("mouseout",function(){
 const gamer = document.getElementById('gamer')
 const gamerTxt = document.getElementById('gamerTxt')
 gamer.addEventListener("mouseover",function(){
-    gamerTxt.innerHTML = "Gry";
+    gamerTxt.innerHTML = "<br>Gry<br><br><br>";
 })
 
 gamer.addEventListener("mouseout",function(){
@@ -140,7 +140,7 @@ gamer.addEventListener("mouseout",function(){
 const cat = document.getElementById('cat')
 const gamcat = document.getElementById('catTxt')
 cat.addEventListener("mouseover",function(){
-    catTxt.innerHTML = "Strona o kotkach";
+    catTxt.innerHTML = "<br>Strona o kotkach<br><br><br>";
 })
 
 cat.addEventListener("mouseout",function(){
@@ -150,7 +150,7 @@ cat.addEventListener("mouseout",function(){
 const findNumber = document.getElementById('findNumber')
 const findNumberTxt = document.getElementById('findNumberTxt')
 findNumber.addEventListener("mouseover",function(){
-    findNumberTxt.innerHTML = "Gra 'zgadnij liczbę'";
+    findNumberTxt.innerHTML = "<br>Gra 'zgadnij liczbę'<br><br><br>";
 })
 
 findNumber.addEventListener("mouseout",function(){
@@ -161,7 +161,7 @@ findNumber.addEventListener("mouseout",function(){
 const build3 = document.getElementById('build3')
 const build3Txt = document.getElementById('build3Txt')
 build3.addEventListener("mouseover",function(){
-    build3Txt.innerHTML = "Strona w budowie";
+    build3Txt.innerHTML = "<br>Strona w budowie<br><br><br>";
 })
 
 build3.addEventListener("mouseout",function(){
@@ -172,7 +172,7 @@ build3.addEventListener("mouseout",function(){
 const mapp = document.getElementById('mapp')
 const mappTxt = document.getElementById('mappTxt')
 mapp.addEventListener("mouseover",function(){
-    mappTxt.innerHTML = "Sprawdź mapę";
+    mappTxt.innerHTML = "<br>Sprawdź mapę<br><br><br>";
 })
 
 mapp.addEventListener("mouseout",function(){
@@ -183,7 +183,7 @@ mapp.addEventListener("mouseout",function(){
 const phone = document.getElementById('phone')
 const phoneTxt = document.getElementById('phoneTxt')
 phone.addEventListener("mouseover",function(){
-    phoneTxt.innerHTML = "kontakt";
+    phoneTxt.innerHTML = "<br>kontakt<br><br><br>";
 })
 
 phone.addEventListener("mouseout",function(){

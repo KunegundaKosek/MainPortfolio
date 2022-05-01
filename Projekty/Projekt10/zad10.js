@@ -2,10 +2,18 @@
 
 const input = document.getElementById("pass")
 const div = document.querySelector('.message')
-const password = "user"
-const message = "mam dwa kotki i świnkę"
+const passwords = ["user", "wiosna", "Haslo"]
+const messages = ["mam dwa kotki i świnkę", "piękna pora roku", "XDDDDDD"]
 
 input.addEventListener('input', (e) => {
+    div.textContent = ''
+    const text = e.target.value
+    passwords.forEach( (passwords, index) => {
+        if(passwords === text) {
+            div.textContent = messages[index]
+            e.target.value = ''
+        }
+    })
 
 
 
